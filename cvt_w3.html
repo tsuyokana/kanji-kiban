@@ -1,0 +1,53 @@
+<!-- HTMLファイル -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Textarea Sample</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ファビコンを指定するリンクタグ -->
+  <link rel="fbc" href="fbc.ico" type="image/x-icon">
+
+</head>
+
+  <!-- 外部のCSSファイルを読み込む -->
+  <link rel="stylesheet" href="cvt_w.css">
+
+<body>
+
+    <!-- テキストエリア1 -->
+    <textarea id="text1" rows="5" cols="30">隴西の李徴は博学才穎、天宝の末年、若くして名を虎榜に連ね、ついで江南尉に補せられたが、性、狷介、自ら恃むところ頗る厚く、賤吏に甘んずるを潔しとしなかつた。</textarea>
+    <!-- テキストエリア2 -->
+    <textarea id="text2" rows="5" cols="30"></textarea>
+    
+    <!-- 左寄せ -->
+    <div class="container">
+
+    <!-- プルダウンメニュー -->
+      <select id="fruits" name="fruits" disabled>
+        <option value="apple">新字から舊字</option>
+        <option value="banana">舊字から新字</option>
+        <option value="orange">簡体字から繁体字</option>
+        <option value="grape">繁体字から簡体字</option>
+      </select>
+
+    <!-- ボタン -->
+    <button id="btn_chg">變換</button>
+    <button onclick="copyToClipboard()">コピー</button> 
+    <input type="button" value="削󠄃除" onclick="clearTextarea()" >
+    </div>
+
+    <!-- scriptタグでJavaScriptのコードを記述するかわりに、jsファイルを読み込む -->
+    <script src="cvt_w_chg.js"></script>
+    <script src="cvt_w_cpy.js"></script>
+    <script src="cvt_w_del.js"></script>
+
+    <mf><p>このWebページは、新字を舊字に變換することを目的に作成してゐます。
+    <br>變換後の文󠄃󠄃󠄃󠄃字を他で御利用になる場合は、一般社團法人 文󠄃字情󠄃報技󠄂術󠄃促進󠄃協議會の配布してゐる
+    <br><a href="https://moji.or.jp/mojikiban/font/">IPAmj明󠄃󠄃󠄃󠄃朝󠄃󠄃󠄃󠄃フォント</a>のインストールが必要󠄃になります。
+    <br>當Webページは 可能な限り正確な變換をするやうに努めておりますが、正確性や安全󠄃性を保證するものではありません。
+    <br>當Webページに揭載された內容によって生じた損害󠄅等の一切の責任を負󠄄ひかねますのでご了承ください。</p></mf>
+
+</body>
+
+</html>
