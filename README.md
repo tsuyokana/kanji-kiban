@@ -23,32 +23,17 @@
 > これは引用です。
 >
 
-↓案一
-# name(prgの名前?)
-image or gif
-## Overview
-## Requirement
-## Usage
-## Features
-## Reference
-## Author
-[twitter](https://twitter.com/Kotabrog)
-## Licence
-[MIT](https://......)
-
-# pjの名前?
-# 画像またはgif
-# 概要
+# pjの名前󠄃?
+# 畫像またはgif
+# 槪要󠄃
 あいうえお
 かきくけこ
-# 要件
-# 使用法
-# 特徴
-# 参照
-# 著者
-# ツイッター
+# 使󠄃用法
+# 特徵
+# 參照
+# 著者
 # ライセンス
-# ミット
+[MIT License](https://github.com/tsuyokana/kanji-henkan/blob/main/LICENSE)
 
 
 
