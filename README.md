@@ -1,3 +1,4 @@
+公式
 このプロジェクトが行うこと
 このプロジェクトが有益な理由
 このプロジェクトの使い始め方
@@ -22,32 +23,30 @@
 > これは引用です。
 >
 
-
-
 ↓案一
-
-# name
-
+# name(prgの名前?)
 image or gif
-
 ## Overview
-
 ## Requirement
-
 ## Usage
-
 ## Features
-
 ## Reference
-
 ## Author
-
 [twitter](https://twitter.com/Kotabrog)
-
 ## Licence
-
 [MIT](https://......)
 
+# pjの名前?
+# 画像またはgif
+# 概要
+# 要件
+# 使用法
+# 特徴
+# 参照
+# 著者
+# ツイッター
+# ライセンス
+# ミット
 
 
 
