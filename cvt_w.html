@@ -9,6 +9,13 @@
   <title>SVG Favicon</title>
   <link rel="icon" href="fvc.svg" type="image/svg+xml" />
 
+  <!-- ページ読み込み時にテキストエリア1にフォーカスを当てる -->
+  <script>
+        window.onload = function() {
+        document.getElementById("text1").focus();
+    };
+</script>
+
 </head>
 
   <!-- 外部のCSSファイルを読み込む -->
@@ -17,7 +24,7 @@
 <body>
 
     <!-- テキストエリア1 -->
-    <textarea id="text1" rows="5" cols="30">隴西の李徴は博学才穎、天宝の末年、若くして名を虎榜に連ね、ついで江南尉に補せられたが、性、狷介、自ら恃むところ頗る厚く、賤吏に甘んずるを潔しとしなかつた。</textarea>
+    <textarea id="text1" rows="5" cols="30"></textarea>
     <!-- テキストエリア2 -->
     <textarea id="text2" rows="5" cols="30"></textarea>
     
