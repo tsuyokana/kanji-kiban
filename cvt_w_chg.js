@@ -9,9 +9,6 @@
         var text2 = document.getElementById("text2");
         // オブジェクトで対応関係を定義する
         var replaceMap = {
-          'あ':'あ',
-          'い':'い',
-          'う':'う',
           '蒋':'蔣',
           '徳':'德',
           '増':'增',
