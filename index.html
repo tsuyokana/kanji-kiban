@@ -32,11 +32,11 @@
     <div class="container">
 
     <!-- プルダウンメニュー -->
-      <select id="fruits" name="fruits" disabled>
+      <select id="fruits" name="fruits">
         <option value="apple">新字から舊字</option>
         <option value="banana">舊字から新字</option>
-        <option value="orange">簡体字から繁体字</option>
-        <option value="grape">繁体字から簡体字</option>
+        <!--<option value="orange">簡体字から繁体字</option> -->
+        <!--<option value="grape">繁体字から簡体字</option> -->
       </select>
 
     <!-- ボタン -->
@@ -46,9 +46,35 @@
     </div>
 
     <!-- scriptタグでJavaScriptのコードを記述するかわりに、jsファイルを読み込む -->
-    <script src="cvt_w_chg.js"></script>
-    <script src="cvt_w_cpy.js"></script>
-    <script src="cvt_w_del.js"></script>
+    <script src="cvt_chg_1jt.js"></script>
+    <script src="cvt_chg_2js.js"></script>
+    <script src="cvt_cpy.js"></script>
+    <script src="cvt_del.js"></script>
+
+    <!-- ▲▲▲ ここから追加 ▲▲▲ -->
+<script>
+document.getElementById("btn_chg").addEventListener("click", function () {
+    const mode = document.getElementById("fruits").value;
+
+    // 過去に読み込んだスクリプトを削除
+    const old = document.getElementById("dyn-script");
+    if (old) old.remove();
+
+    // 新しい script タグを作る
+    const s = document.createElement("script");
+    s.id = "dyn-script";
+
+    if (mode === "apple") {
+        s.src = "cvt_chg_1jt.js";   // 新字 → 舊字
+    } else if (mode === "banana") {
+        s.src = "cvt_chg_2js.js";  // 舊字 → 新字
+    }
+
+    document.body.appendChild(s);
+});
+// ▲▲▲ ここまで追加 ▲▲▲
+</script>
+
     <mf><br>このWebページは、新字を舊字に變換することを目的に作成してゐます。
       <li>變換後の文󠄃󠄃󠄃󠄃字を他で御利用になる場合は、一般社團法人 文󠄃字情󠄃報技󠄂術󠄃促進󠄃協議會の配布してゐる</li>
       <a href="https://moji.or.jp/mojikiban/font/">「IPAmj明󠄃󠄃󠄃󠄃朝󠄃󠄃󠄃󠄃フォント」</a>のインストールと「IPAフォントライセンスv1.0」への同意󠄃とが必要󠄃です。
