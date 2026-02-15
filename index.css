@@ -1,23 +1,47 @@
-@font-face {font-family: 'myfont';
-    src: url('../kanji-kiban/ipamjm.ttf') format('truetype');
-                                                      }
+@font-face {
+  font-family: "myfont";
+  src: url("../kanji-kiban/ipamjm.ttf") format("truetype");
+}
 
-textarea,input,button,select,option {color: black;
-    font-family: 'myfont';
-font-size: 16px;
-                                               }
+/* 画面幅 768px 以下（スマホ想定） */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
 
-mf {color: black;
-font-family: 'myfont';
-font-size: 16px;
-                                  }
+textarea,
+input,
+button,
+select,
+option {
+  color: black;
+  font-family: "myfont";
+  font-size: 16px;
+}
 
-body{background: #f5deb3}
+/* mf は HTML タグとして使っているならこれでOK
+   class="mf" のつもりなら .mf にしてください（下に補足あり） */
+mf {
+  color: black;
+  font-family: "myfont";
+  font-size: 16px;
+}
 
-/*ボタンの左寄せ*/
+body {
+  background: #f5deb3;
+}
+
+/* ボタンの左寄せ */
 .container {
   text-align: left;
 }
 
-/*ボタンの着色*/
-#btn_chg{background-color: #ff9100;}
+/* ボタンの着色 */
+#btn_chg {
+  background-color: #ff9100;
+}
