@@ -1,33 +1,22 @@
-@font-face {font-family: 'myfont';
-    src: url('../kanji-kiban/0500web/ipamjm.ttf') format('truetype');
-                                                      }
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
+@font-face {
+  font-family: 'myfont';
+  src: url('./ipamjm.ttf') format('truetype');
+  font-display: swap;
 }
 
-textarea,input,button,select,option {color: black;
-    font-family: 'myfont';
-font-size: 16px;
-                                               }
-
-mf {color: black;
-font-family: 'myfont';
-font-size: 16px;
-                                  }
-
-body{background: #f5deb3}
-
-/*ボタンの左寄せ*/
-.container {
-  text-align: left;
+body {
+  background: #f5deb3;
+  font-family: 'myfont', serif;
 }
 
-/*ボタンの着色*/
-#btn_chg{background-color: #ff9100;}
+mf {
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+}
+
+textarea, input, button, select, option {
+  font-family: 'myfont';
+  font-size: 16px;
+  color: black;
+}
