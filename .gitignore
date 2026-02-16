@@ -9,5 +9,7 @@
 /0600web_spl1/
 /0601web_spl2/
 /0800wsl/
-/用語.txt
-/用語公式.txt
+# 個人用 VS Code 設定は無視
+.vscode/settings.json
+.vscode/launch.json
+!.vscode/extensions.json

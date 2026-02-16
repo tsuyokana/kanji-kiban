@@ -1,5 +1,5 @@
 @font-face {font-family: 'myfont';
-    src: url('../kanji-kiban/0500web/ipamjm.ttf') format('truetype');
+    src: url('../0500web/ipamjm.ttf') format('truetype');
                                                       }
 
 textarea,input,button,select,option {color: black;
