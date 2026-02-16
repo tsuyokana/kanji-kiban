@@ -2,6 +2,16 @@
     src: url('../kanji-kiban/0500web/ipamjm.ttf') format('truetype');
                                                       }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
 textarea,input,button,select,option {color: black;
     font-family: 'myfont';
 font-size: 16px;
