@@ -65,6 +65,14 @@ document.getElementById("btn_chg").addEventListener("click", function () {
     const s = document.createElement("script");
     s.id = "dyn-script";
 
+    // 読み込み完了後にボタン処理を実行（1回目のクリックでも変換できるように）
+    s.onload = function () {
+        const button = document.getElementById("btn_chg");
+        if (button && typeof button.onclick === "function") {
+            button.onclick();
+        }
+    };
+
     if (mode === "apple") {
         s.src = "cvt_chg_1jt.js";   // 新字 → 舊字
     } else if (mode === "banana") {
