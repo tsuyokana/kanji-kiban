@@ -1,12 +1,8 @@
 # 生成されたファイルや個人用の設定を無視
-/0050chk_ts/
-/0300uipath/
 /0400ocr/
 /0450wiki/
 /0475exp_cvt/
 /0480_exp_cvt_kana/
-/0600web_spl1/
-/0601web_spl2/
 /0800wsl/
 # 個人用 VS Code 設定は無視
 .vscode/settings.json

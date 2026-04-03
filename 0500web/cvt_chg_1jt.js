@@ -6761,9 +6761,9 @@
           '值':'値',
         };
        // 関数で置換処理を行う
-         var value2 = withoutIVS.replace(/./g, function(c) {
-         return replaceMap[c] || c;
-        });
+       var value2 = withoutIVS.replace(/./gu, function(c) {
+               return replaceMap[c] || c;
+               });
 
        // テキストエリア2に変換した値を設定する
        text2.value = value2;
