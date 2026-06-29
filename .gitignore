@@ -6,6 +6,7 @@
 /0490_odoriji/
 /0510web2/
 /0800wsl/
+/public_html/
 # 個人用 VS Code 設定は無視
 .vscode/settings.json
 .vscode/launch.json
