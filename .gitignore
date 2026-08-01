@@ -7,6 +7,7 @@
 /0510web2/
 /0520web3/
 /0800wsl/
+/config/
 /public_html/
 # 個人用 VS Code 設定は無視
 .vscode/settings.json
