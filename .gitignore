@@ -1,4 +1,5 @@
 # 生成されたファイルや個人用の設定を無視
+/000old_html_backup/
 /0400ocr/
 /0450wiki/
 /0475exp_cvt/
